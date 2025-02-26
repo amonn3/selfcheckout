@@ -5,7 +5,7 @@ import { ChefHatIcon, ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
 import { useContext, useState } from "react";
 
-import { CartContext } from "@/app/[slug]/menu/contexts/page";
+import { CartContext } from "@/app/[slug]/menu/contexts/cart";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { formatCurrency } from "@/helpers/format-currency";
